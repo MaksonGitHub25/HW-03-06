@@ -80,7 +80,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 4rem 0;
+    margin: 4rem 2rem 0 0;
     border-radius: 2rem;
     border: none;
 }
@@ -88,4 +88,57 @@
 .carousel-img {
     width: 1500px;
     height: 720px;
+}
+
+footer {
+    background-color: rgb(79, 79, 79);
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+a:visited {
+    background-color: black;
+}
+
+.footer-social-media-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border-bottom: 2px solid black;
+    padding-bottom: 2rem;
+}
+
+.footer-social-media-box {
+    display: flex;
+    flex-direction: row;
+    padding: .4rem 0rem;
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+}
+
+.footer-link {
+    color: whitesmoke;
+    font-size: 1.4rem;
+    list-style-type: none;
+}
+
+ul {
+    padding-top: 2rem;
+    margin-bottom: -1rem;
+}
+
+.form-main {
+    padding: 1rem 12rem;
+    margin: 2rem 0;
+}
+
+.main-form-text-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-form-text {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
 }
