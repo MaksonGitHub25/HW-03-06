@@ -1,0 +1,62 @@
+.header-main-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo-and-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-logo {
+    width: 200px;
+    height: 200px;
+}
+
+.header-text {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.4rem;
+}
+
+.social-media-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+}
+
+.social-media-box {
+    display: flex;
+    justify-content: center;
+    padding: .4rem 0rem;
+    border-radius: 30px;
+    border: 0;
+    background-color: black;
+}
+
+.icon-wrapper {
+    padding: .4rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 0;
+    background-color: white;
+}
+
+.header-nav-container {
+    margin: 0rem 3rem;
+    padding: 1rem 1rem;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: 2rem 1.5rem;
+}
